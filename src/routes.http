@@ -1,0 +1,12 @@
+POST http://localhost:3333/cadastro
+Content-Type: application/json
+
+{
+    "nome": "igor",
+    "email": "igor1_souza@hotmail.com",
+    "cpf": "0544782947115",
+    "senha": "danffinosaionf"
+}
+
+###
+GET http://localhost:3333/users
